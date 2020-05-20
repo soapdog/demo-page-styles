@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo - Page Styles</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+	
+	<link rel="stylesheet" title="sakura css" href="https://unpkg.com/sakura.css/css/sakura.css">
+	<link rel="alternate stylesheet" title="sakura css - dark" href="https://unpkg.com/sakura.css/css/sakura-dark.css">
+	<link rel="alternate stylesheet" title="sakura css - earthly" href="https://unpkg.com/sakura.css/css/sakura-earthly.css">
+	<link rel="alternate stylesheet" title="sakura css - vader" href="https://unpkg.com/sakura.css/css/sakura-vader.css">
+
+	<link rel="alternate stylesheet" title="water.css - dark" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
+</head>
+<body>
+	<h1>Page Styles Demo</h1>
+	<blockquote>
+		"Gotta catch'em'all!" &mdash; Ash, I think, I have no idea.
+	</blockquote>
+	<p>I basically picked the <em>demo</em> for <a href="https://github.com/oxalorg/sakura">sakura CSS</a> and changed it a bit to make this demo.</p>
+	<h1>H1 header</h1>
+	<p><em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists look like:</p>
+	<ul>
+		<li>this one</li>
+		<li>that one</li>
+		<li>the other one</li>
+	</ul>
+
+	<p>A horizontal rule follows.</p>
+<hr>
+<p>Images are responsive by default:</p>
+<div>
+	<img alt="example image" src="http://placekitten.com/200/300" title="An exemplary image">
+	<p>example kitten</p>
+</div>
+
+<hr>
+
+	<h2 id="an-h2-header">An h2 header</h2>
+	<p><strong>Some code blocks</strong></p>
+	<pre><code>
+define foobar() {
+	print "Welcome to flavor country!";
+}</code></pre>
+
+
+<h3 id="an-h3-header">An h3 header</h3>
+<p>A nested list:</p>
+<ol style="list-style-type: decimal">
+	<li>
+		<p>First, get these ingredients:</p>
+		<ul>
+			<li>carrots</li>
+			<li>celery</li>
+			<li>lentils</li>
+		</ul>
+	</li>
+	<li>
+		<p>Boil some water.</p>
+	</li>
+</ol>
+
+<h1 id="header-level-1">Header level 1</h1>
+<h2 id="header-level-2">Header level 2</h2>
+<h3 id="header-level-3">Header level 3</h3>
+<h4 id="header-level-4">Header level 4</h4>
+<h5 id="header-level-5">Header level 5</h5>
+<h6 id="header-level-6">Header level 6</h6>
+
+<p>A horizontal line:</p>
+<hr>
+
+<p>Here's a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local doc</a>, and to a <a href="#an-h2-header">section heading in the current doc</a>. Here's a footnote <a href="#fn1" id="fnref1"><sup>1</sup></a>.</p>
+<p>Tables can look like this:</p>
+
+<table>
+	<caption>
+		Shoes, their sizes, and what they're made of
+	</caption>
+	<thead>
+		<tr >
+			<th align="left">size</th>
+			<th align="left">material</th>
+			<th align="left">color</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr >
+			<td align="left">9</td>
+			<td align="left">leather</td>
+			<td align="left">brown</td>
+		</tr>
+		<tr >
+			<td align="left">10</td>
+			<td align="left">hemp canvas</td>
+			<td align="left">natural</td>
+		</tr>
+		<tr >
+			<td align="left">11</td>
+			<td align="left">glass</td>
+			<td align="left">transparent</td>
+		</tr>
+	</tbody>
+</table>
+<p>Multi-line tables:</p>
+<table style="width:46%;">
+	<colgroup>
+		<col width="13%">
+		<col width="31%">
+	</colgroup>
+	<thead>
+		<tr>
+			<th align="left">keyword</th>
+			<th align="left">text</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="left">red</td>
+			<td align="left">Sunsets, apples, and other red or reddish things.</td>
+		</tr>
+		<tr>
+			<td align="left">green</td>
+			<td align="left">Leaves, grass, frogs and other things it's not easy being.</td>
+		</tr>
+	</tbody>
+</table>
+
+
+</body>
+</html>
